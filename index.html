@@ -3,81 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Road Salt and the Environment</title>
     <link rel="stylesheet" href="styles.css"> <!-- You can link an external CSS file here -->
     <link rel="icon" href="Salt-crystal.ico">
 
     <style>
-        body {
-            background-image: url('backim.jpeg'); 
-            background-position: center; /* Center the background */
-            background-repeat: no-repeat; 
-            background-size: cover; 
-            background-attachment: fixed;
-            padding-top: 20px; 
-            padding-right: 250px; /* Add padding to the right */
-            padding-bottom: 30px; /* Add padding to the bottom */
-            padding-left: 250px; /* Add padding to the left */
-            box-sizing: border-box; 
-            color: #ddd; /* Greyish text color */
-            font-size: 18px;
-            
-        }
+       body {
+    background-image: url('backim.jpeg');
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px; /* Add padding to all sides */
+    box-sizing: border-box;
+    color: #ddd; /* Greyish text color */
+    font-size: 18px;
+}
 
-        header {
-            text-align: right;
-            margin-bottom: 20px;
-        }
+header {
+    text-align: right;
+    margin-bottom: 20px;
+}
 
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
 
-        nav ul li a {
-            text-decoration: none;
-            color: #ddd; /* Greyish text color */
-            font-size: 18px;
-            padding: 10px 20px;
-            border-radius: 5px;
-            background-color: rgba(0, 0, 0, 0.5);
-            transition: background-color 0.3s;
-        }
+nav ul li a {
+    text-decoration: none;
+    color: #ddd; /* Greyish text color */
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s;
+}
 
-        nav ul li a:hover {
-            background-color: rgba(0, 0, 0, 0.8);
-        }
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
-        main {
-            text-align: center;
-        }
+main {
+    text-align: center;
+}
 
-        section {
-            margin-bottom: 50px;
-        }
+section {
+    margin-bottom: 50px;
+}
 
-        footer {
-            text-align: center;
-            color: #ddd; /* Greyish text color */
-            margin-top: 50px;
-        }
+footer {
+    text-align: center;
+    color: #ddd; /* Greyish text color */
+    margin-top: 50px;
+}
 
+#title {
+    text-align: center;
+}
 
+p:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the opacity to make it darker */
+}
 
-        #title {
-
-            text-align:center;
-        }
-
-        p:hover {
-  background-color: rgba(0, 0, 0, 0.8); /* Adjust the opacity to make it darker */
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0; /* Adjust spacing between navigation items */
+    }
 }
 
 
